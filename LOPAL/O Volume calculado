@@ -1,0 +1,5 @@
+pi = 3.14115265359
+raio = float(input('Digite o valor do Raio: '))
+altura = float(input('Digite o valor do Altura: '))
+volume = pi * (raio ** 2) * altura
+print(f'O Volume calculado é {volume:.2f}')
