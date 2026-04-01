@@ -1,0 +1,15 @@
+soma = 0
+for i in range(quantidade):
+    temp = float(input("Digite a temperatura: "))
+    soma += temp
+    if temp < 37.2:
+        print("Temperatura normal")
+    elif temp <= 38:
+        print("Estado febril")
+    elif temp <= 39:
+        print("Febre")
+    else:
+        print("Febre alta")
+media = soma / quantidade
+print("Quantidade de pessoas:", quantidade)
+print("Média de temperatura:", media)
