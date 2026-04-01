@@ -1,0 +1,4 @@
+alario = float(input('Informe a salário atual: \nR$ '))
+perc = float(input('Informe a Porcentagem de Aumento:'))
+salatu = salario + (salario * (perc/100))
+print(f'O Salário Atualizado é : R$ {salatu:.2f}')
