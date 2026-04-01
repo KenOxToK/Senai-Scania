@@ -1,5 +1,0 @@
-numeros = float(input('Informe os numeros: '))
-if numeros >= 10:
- print('Números são maiores :', numeros)
-else:
- print(f'Números são : menores {numeros}')

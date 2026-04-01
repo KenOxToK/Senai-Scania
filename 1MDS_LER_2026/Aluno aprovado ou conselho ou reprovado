@@ -1,7 +1,0 @@
-media = float(input('Informe a média: '))
-if media >= 5:
- print('Aluno aprovado com média :', media)
-elif media > 3.5 and media <=4.99:
-    print('Aluno vai para conselho')
-else:
-    print(f'Aluno reprovado com média : media{media}')
